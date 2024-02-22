@@ -1,0 +1,15 @@
+<header class="header">
+  <h1 class="header__h1">Construcciones Juanma</h1>
+
+  <nav class="header__nav">
+    <div class="header__container">
+      <ul class="header__ul">
+        <li class="header__li" *ngFor="let element of navBar">
+          {{ element.title }}
+        </li>
+      </ul>
+      <h2>Contacto</h2>
+    </div>
+  </nav>
+  <i class="pi pi-bars icono--menu"></i>
+</header>

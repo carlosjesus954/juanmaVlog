@@ -1,0 +1,49 @@
+@use "../../../../scss/variables" as v;
+@use "../../../../scss/mixings" as m;
+.home {
+  &__about {
+  }
+  &__container {
+    background-image: url("/assets/homeImg.jpg");
+    height: 25rem;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    > * {
+      /*todos los elementos de container*/
+      position: relative;
+      z-index: 2;
+    }
+  }
+  &__h3 {
+    color: v.$colorPrincipal;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  &__span {
+  }
+  &__subcontainer {
+  }
+  &__span--widht {
+    width: 25rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+}
