@@ -1,0 +1,20 @@
+.info {
+  padding: 2rem;
+  &__h1 {
+    font-size: 2rem;
+    color: brown;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  &__container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+  &__span--destacado {
+    color: brown;
+    font-size: 1.3rem;
+  }
+  &__span {
+  }
+}

@@ -1,0 +1,21 @@
+<section class="info">
+  <h2 class="info__h2">¿Qué ofrecemos?</h2>
+  <div class="info__container">
+    <span class="info__span"
+      >Tanto en proyectos de obra nueva, de obra civil o de rehabilitación o
+      reforma, nuestros servicios integrales de construcción cubren todos los
+      aspectos técnicos necesarios:</span
+    >
+    <span class="info__span"
+      >Una de nuestras principales ventajas es ofrecer un servicio llave en
+      mano, realizando desde el estudio de la obra, planos y redacción de
+      proyectos, hasta la ejecución total del mismo.</span
+    >
+  </div>
+  <div class="info__grid">
+    <div class="info__grid--containers" *ngFor="let item of info">
+      <span class="info__grid--number"> {{ item.number }} </span>
+      <span class="info__grid--span"> {{ item.title }} </span>
+    </div>
+  </div>
+</section>

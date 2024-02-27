@@ -37,8 +37,16 @@
     font-weight: bold;
   }
   &__span {
+    text-align: center;
+    color: white;
   }
   &__subcontainer {
+    background-color: brown;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    align-items: center;
   }
   &__span--widht {
     width: 25rem;

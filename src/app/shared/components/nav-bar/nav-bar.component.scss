@@ -1,5 +1,5 @@
 .header {
-  background-color: rgba(29, 29, 27, 0.68);
+  background-color: rgba(0, 0, 0, 0.68);
 
   display: flex;
   justify-content: space-between;
@@ -18,10 +18,10 @@
     width: 100vw;
     opacity: 0;
     top: -100%;
-    transition: all 0.5s ease;
+    transition: all 1s ease-in-out;
   }
   &__container {
-    background-color: rgba(29, 29, 27, 0.68);
+    background-color: rgba(0, 0, 0, 0.68);
     margin: auto;
     width: 50vw;
     padding: 2rem 2rem 2rem 2rem;
@@ -34,9 +34,10 @@
   }
   &__li {
     cursor: pointer;
-    background-color: blue;
+    // background-color: blue;
     text-align: center;
     font-weight: bold;
+    color: white;
   }
 }
 
@@ -45,7 +46,7 @@
   color: white;
 }
 .show--menu {
-  transition: all 0.5s ease;
+  transition: all 1s ease-in-out;
   top: 3.1rem;
   opacity: 1;
 }

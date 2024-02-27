@@ -1,0 +1,37 @@
+.info {
+  background-color: rgb(184, 184, 184);
+  padding: 2rem;
+  &__h2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  &__container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  &__span {
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  &__grid--containers {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  &__grid--number {
+    font-size: 4rem;
+    color: brown;
+    font-weight: bolder;
+  }
+  &__grid--span {
+    font-weight: bold;
+  }
+}
