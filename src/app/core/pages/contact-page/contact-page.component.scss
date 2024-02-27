@@ -1,0 +1,52 @@
+.contact {
+  height: 100vh;
+  &__container {
+  }
+  &__h4 {
+    font-size: 2rem;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__span {
+    color: white;
+  }
+  &__container--background {
+    background-image: url("/assets/contactImg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__container--subcontainer {
+    background-color: brown;
+    padding: 2rem;
+    text-align: center;
+  }
+  &__subcontainer {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  &__title {
+    color: brown;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  &__span--black {
+  }
+  &__subcontainer--info {
+    // display: flex;
+    // justify-content: space-between;
+  }
+  &__subcontainer--boxes {
+  }
+  &__subcontainer--title {
+  }
+  &__subcontainer--span {
+  }
+}

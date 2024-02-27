@@ -4,7 +4,12 @@
   <nav class="header__nav" [ngClass]="navBarState ? 'show--menu' : ''">
     <div class="header__container">
       <ul class="header__ul">
-        <li class="header__li" *ngFor="let element of navBarElements">
+        <li
+          class="header__li"
+          *ngFor="let element of navBarElements"
+          [routerLink]="element.link"
+          (click)="changeStateOfNavBar()"
+        >
           {{ element.title }}
         </li>
       </ul>

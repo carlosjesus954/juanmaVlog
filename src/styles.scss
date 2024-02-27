@@ -4,3 +4,14 @@
 @import "primeicons/primeicons.css";
 
 @import url("./scss/_reset.scss");
+
+.p-button.p-button-primary {
+  background-color: rgb(44, 44, 44);
+  border-color: rgb(44, 44, 44);
+}
+
+/* Cambia el color de fondo del botón primary cuando se pasa el ratón por encima a un rojo más oscuro */
+.p-button.p-button-primary:hover {
+  background-color: rgb(20, 20, 20);
+  border-color: rgb(20, 20, 20);
+}

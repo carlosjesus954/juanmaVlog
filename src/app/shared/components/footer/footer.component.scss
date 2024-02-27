@@ -1,0 +1,25 @@
+@use "../../../../scss/mixings" as m;
+.footer {
+  background-color: rgb(23, 23, 23);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  @include m.movil {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+  &__h3 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__span {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
