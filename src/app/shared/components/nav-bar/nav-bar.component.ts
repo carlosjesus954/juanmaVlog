@@ -24,11 +24,6 @@ export class NavBarComponent implements OnInit {
     },
     {
       id: 1,
-      title: 'Servicios',
-      link: '',
-    },
-    {
-      id: 2,
       title: 'Obras realizadas',
       link: '',
     },

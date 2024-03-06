@@ -1,5 +1,4 @@
 .contact {
-  height: 100vh;
   &__container {
   }
   &__h4 {
@@ -38,15 +37,32 @@
     font-size: 2rem;
   }
   &__span--black {
+    margin-bottom: 1rem;
+    font-weight: bold;
   }
   &__subcontainer--info {
     // display: flex;
     // justify-content: space-between;
   }
+  &__subcontainer--flex {
+    display: flex;
+    justify-content: space-between;
+  }
   &__subcontainer--boxes {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
   }
   &__subcontainer--title {
+    font-size: 1.2rem;
+    color: brown;
   }
   &__subcontainer--span {
   }
+}
+.wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
 }
